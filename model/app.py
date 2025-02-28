@@ -76,8 +76,8 @@ if uploaded_file:
         fig_sample.add_trace(
             go.Scatter(y=preds_sample, mode="lines+markers", name="Predicted Sales", marker=dict(size=6)))
         fig_sample.update_layout(
-            title="📊 Sample: Actual vs Predicted Sales",
-            xaxis_title="Sample Index",
+            title="📊Actual vs Predicted Sales",
+            xaxis_title="Index",
             yaxis_title="Sales Revenue",
             template="plotly_white"
         )
