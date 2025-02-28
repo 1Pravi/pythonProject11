@@ -11,7 +11,7 @@ lgb_model = joblib.load("lg.pkl")
 
 # Streamlit UI setup
 st.set_page_config(page_title="Retail Sales Forecasting", layout="wide")
-st.title("📊 Retail Sales Forecasting (LightGBM)")
+st.title("📊Retail Sales Forecasting")
 
 # Sidebar for user inputs (Single Prediction)
 st.sidebar.header("🔢 Input Features")
